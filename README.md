@@ -11,32 +11,34 @@
 
 ## ✨ Features
 
-| Feature | Description |
-|---|---|
-| **ATS Scoring Engine** | Weighted 6-category score (keyword 30%, formatting 20%, grammar 15%, structure 15%, impact 10%, compliance 10%) |
-| **Job Description Analyzer** | Extracts required/preferred skills, seniority, tools, and experience level from pasted JD text |
-| **Resume ↔ JD Matcher** | TF-IDF cosine similarity + keyword overlap to calculate match % |
-| **Grammar & Writing Checker** | LanguageTool integration + regex fallback for passive voice, weak phrases |
-| **Action Verb Enhancer** | Detects weak verbs ("worked on", "responsible for") and suggests contextual replacements |
-| **Impact Quantifier** | Flags un-quantified bullet points and suggests how to add measurable outcomes |
-| **Link Validator** | Concurrent HTTP validation of GitHub, LinkedIn, portfolio, and certificate URLs |
-| **Section Quality Analyzer** | Evaluates Summary, Experience, Skills, Projects, Education individually |
-| **Skill Gap Engine** | Prioritized missing skills based on JD requirements + industry frequency data |
-| **Template Compliance** | Detects multi-column layouts, excessive whitespace, missing headings |
-| **Benchmark Comparison** | Radar chart comparison of your resume vs a high-performing benchmark |
-| **Report Exporter** | HTML and plain-text reports with full score breakdown |
-| **SQLite Persistence** | All sessions, reports, and JDs stored locally |
-| **Dark Theme UI** | Modern SaaS-style dark theme with PyQt5 |
+| Feature                       | Description                                                                                                     |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| **ATS Scoring Engine**        | Weighted 6-category score (keyword 30%, formatting 20%, grammar 15%, structure 15%, impact 10%, compliance 10%) |
+| **Job Description Analyzer**  | Extracts required/preferred skills, seniority, tools, and experience level from pasted JD text                  |
+| **Resume ↔ JD Matcher**       | TF-IDF cosine similarity + keyword overlap to calculate match %                                                 |
+| **Grammar & Writing Checker** | LanguageTool integration + regex fallback for passive voice, weak phrases                                       |
+| **Action Verb Enhancer**      | Detects weak verbs ("worked on", "responsible for") and suggests contextual replacements                        |
+| **Impact Quantifier**         | Flags un-quantified bullet points and suggests how to add measurable outcomes                                   |
+| **Link Validator**            | Concurrent HTTP validation of GitHub, LinkedIn, portfolio, and certificate URLs                                 |
+| **Section Quality Analyzer**  | Evaluates Summary, Experience, Skills, Projects, Education individually                                         |
+| **Skill Gap Engine**          | Prioritized missing skills based on JD requirements + industry frequency data                                   |
+| **Template Compliance**       | Detects multi-column layouts, excessive whitespace, missing headings                                            |
+| **Benchmark Comparison**      | Radar chart comparison of your resume vs a high-performing benchmark                                            |
+| **Report Exporter**           | HTML and plain-text reports with full score breakdown                                                           |
+| **SQLite Persistence**        | All sessions, reports, and JDs stored locally                                                                   |
+| **Dark Theme UI**             | Modern SaaS-style dark theme with PyQt5                                                                         |
 
 ---
 
 ## 🖼️ Screenshots
 
-> _Add screenshots here after first run_
-
-| Dashboard | Analysis | Suggestions |
-|-----------|----------|-------------|
+| Dashboard                   | Analysis                   | Suggestions                   |
+| --------------------------- | -------------------------- | ----------------------------- |
 | `screenshots/dashboard.png` | `screenshots/analysis.png` | `screenshots/suggestions.png` |
+
+| Benchmark                   | Analysis2                   | Reports and History               |
+| --------------------------- | --------------------------- | --------------------------------- |
+| `screenshots/benchmark.png` | `screenshots/analysis2.png` | `screenshots/reports_history.png` |
 
 ---
 
@@ -138,14 +140,14 @@ resume_ai_platform/
 
 ## 🧠 ATS Scoring Methodology
 
-| Category | Weight | How It's Measured |
-|---|---|---|
-| Keyword Match | 30% | % of JD keywords found in resume (whole-word regex + TF-IDF cosine) |
-| Formatting | 20% | Page count, word count, bullet density, contact info completeness |
-| Grammar | 15% | LanguageTool issue count (proportional deduction) |
-| Resume Structure | 15% | Presence of Summary, Experience, Education, Skills, Projects |
-| Impact Writing | 10% | Quantified bullets %, strong action verb density |
-| ATS Compliance | 10% | Multi-column detection, heading clarity, long-line heuristics |
+| Category         | Weight | How It's Measured                                                   |
+| ---------------- | ------ | ------------------------------------------------------------------- |
+| Keyword Match    | 30%    | % of JD keywords found in resume (whole-word regex + TF-IDF cosine) |
+| Formatting       | 20%    | Page count, word count, bullet density, contact info completeness   |
+| Grammar          | 15%    | LanguageTool issue count (proportional deduction)                   |
+| Resume Structure | 15%    | Presence of Summary, Experience, Education, Skills, Projects        |
+| Impact Writing   | 10%    | Quantified bullets %, strong action verb density                    |
+| ATS Compliance   | 10%    | Multi-column detection, heading clarity, long-line heuristics       |
 
 All scores are deterministic and explainable — **no random values**.
 
@@ -153,17 +155,17 @@ All scores are deterministic and explainable — **no random values**.
 
 ## 🔧 Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Language | Python 3.10+ |
-| GUI | PyQt5 |
-| PDF Parsing | pdfplumber |
-| NLP | spaCy, scikit-learn |
-| Grammar | language-tool-python |
-| Charts | matplotlib (FigureCanvas embedded in Qt) |
-| Database | SQLite (via Python's sqlite3) |
-| HTTP | requests (concurrent link validation) |
-| Packaging | PyInstaller |
+| Layer       | Technology                               |
+| ----------- | ---------------------------------------- |
+| Language    | Python 3.10+                             |
+| GUI         | PyQt5                                    |
+| PDF Parsing | pdfplumber                               |
+| NLP         | spaCy, scikit-learn                      |
+| Grammar     | language-tool-python                     |
+| Charts      | matplotlib (FigureCanvas embedded in Qt) |
+| Database    | SQLite (via Python's sqlite3)            |
+| HTTP        | requests (concurrent link validation)    |
+| Packaging   | PyInstaller                              |
 
 ---
 
