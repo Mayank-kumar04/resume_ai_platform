@@ -32,13 +32,16 @@
 
 ## 🖼️ Screenshots
 
-| Dashboard                     | Analysis                      | Suggestions                     |
-| ----------------------------- | ----------------------------- | ------------------------------- |
-| (./screenshots/dashboard.png) | (./screenshots/analysis.png`) | (./screenshots/suggestions.png) |
+| Dashboard                        | Analysis                           |
+| -------------------------------- | ---------------------------------- |
+| ![](./screenshots/dashboard.png) | ![](./screenshots/analysis.png)    |
+| Suggestions                      | Benchmark                          |
+| -------------------------------- | ---------------------------------- |
+| ![](./screenshots/benchmark.png) | ![](./screenshots/suggestions.png) |
 
-| Benchmark                     | Analysis2                     | Reports and History                 |
-| ----------------------------- | ----------------------------- | ----------------------------------- |
-| (./screenshots/benchmark.png) | (./screenshots/analysis2.png) | (./screenshots/reports_history.png) |
+| Analysis2                        | Reports and History                    |
+| -------------------------------- | -------------------------------------- |
+| ![](./screenshots/analysis2.png) | ![](./screenshots/reports_history.png) |
 
 ---
 
