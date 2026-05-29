@@ -32,13 +32,13 @@
 
 ## 🖼️ Screenshots
 
-| Dashboard                   | Analysis                   | Suggestions                   |
-| --------------------------- | -------------------------- | ----------------------------- |
-| `screenshots/dashboard.png` | `screenshots/analysis.png` | `screenshots/suggestions.png` |
+| Dashboard                     | Analysis                      | Suggestions                     |
+| ----------------------------- | ----------------------------- | ------------------------------- |
+| (./screenshots/dashboard.png) | (./screenshots/analysis.png`) | (./screenshots/suggestions.png) |
 
-| Benchmark                   | Analysis2                   | Reports and History               |
-| --------------------------- | --------------------------- | --------------------------------- |
-| `screenshots/benchmark.png` | `screenshots/analysis2.png` | `screenshots/reports_history.png` |
+| Benchmark                     | Analysis2                     | Reports and History                 |
+| ----------------------------- | ----------------------------- | ----------------------------------- |
+| (./screenshots/benchmark.png) | (./screenshots/analysis2.png) | (./screenshots/reports_history.png) |
 
 ---
 
